@@ -1,0 +1,31 @@
+.main{
+    width: 100%;
+    height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main span {
+    color: #2aa3d7;
+}
+
+.main p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #6c6c6c;
+    width: 50rem;
+}
+
+@media (max-width: 570px) {
+    .main p{
+        width: 100%;
+    }
+}
